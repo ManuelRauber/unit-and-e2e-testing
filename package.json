@@ -1,0 +1,36 @@
+{
+  "name": "UnitAndE2ETestsExample",
+  "version": "1.0.0",
+  "description": "An example how to use unit and e2e tests",
+  "main": "index.js",
+  "keywords": [
+    "karma",
+    "jasmine",
+    "unit-test",
+    "e2e-test"
+  ],
+  "author": "Manuel Rauber",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.3.15",
+    "angular-animate": "^1.4.4",
+    "angular-aria": "^1.4.4",
+    "angular-material": "^0.10.1",
+    "bootstrap": "^3.3.4",
+    "del": "^1.2.0",
+    "gulp": "^3.8.11",
+    "gulp-babel": "^5.1.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-typescript": "^2.7.5",
+    "jasmine": "^2.3.1",
+    "karma": "^0.12.32",
+    "karma-coverage": "^0.3.1",
+    "tsd": "^0.6.0",
+    "typescript": "^1.5.0-beta"
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.3.4",
+    "karma-chrome-launcher": "^0.1.12",
+    "karma-jasmine": "^0.3.5"
+  }
+}

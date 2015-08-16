@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html ng-app="bookManagerApp">
+    
+    <head>
+        <title>Book Manager</title>
+        <meta charset="UTF-8" />
+        <link href="../../node_modules/angular-material/angular-material.css" rel="stylesheet" />
+        <link href="app.css" rel="stylesheet" />
+    </head>
+    
+    <body layout="column" ng-controller="mainPageController">
+        <md-toolbar layout="row">
+            <h1 class="md-toolbar-tools" layout-align="center">Book Manager App</h1>
+        </md-toolbar>
+        <div layout="column" flex id="content">
+            <md-content layout="column" flex class="md-padding">
+                <form ng-submit="viewModel.submitNewBook()">
+                    <div layout="row" layout-sm="column">
+                        <md-input-container flex>
+                            <label>Title</label>
+                            <input ng-model="newBook.title" />
+                        </md-input-container>
+                        <md-input-container flex>
+                            <label>Author</label>
+                            <input ng-model="newBook.author" />
+                        </md-input-container>
+                        <md-input-container>
+                            <md-checkbox ng-model="newBook.isRead">I have read that!</md-checkbox>
+                        </md-input-container>
+                        <md-button class="md-raised" type="submit">Add book</md-button>
+                    </div>
+                </form>
+                <h2>Book list</h2>
+                <md-list>
+                    <md-list-item class="md-2-line" ng-repeat="book in books">
+                        <div class="md-avatar" ng-class="{'background-green': book.isRead, 'background-red': !book.isRead}"></div>
+                        <div class="md-list-item-text">
+                            <h3>{{book.title}}</h3>
+                            <h4>{{book.author}}</h4>
+                        </div>
+                        <md-button class="md-secondary md-warn md-raised" ng-click="viewModel.deleteBook(book.id)">Delete</md-button>
+                    </md-list-item>
+                </md-list>
+            </md-content>
+        </div>
+        <script src="../../node_modules/angular/angular.js"></script>
+        <script src="../../node_modules/angular-animate/angular-animate.js"></script>
+        <script src="../../node_modules/angular-aria/angular-aria.js"></script>
+        <script src="../../node_modules/angular-material/angular-material.js"></script>
+        <script src="../../build/lib.js"></script>
+    </body>
+
+</html>

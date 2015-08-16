@@ -1,0 +1,11 @@
+.idea
+packages/
+obj/
+node_modules
+bower_components
+jspm_packages
+.[Dd][Ss]_[Ss]tore
+npm-debug.log
+
+coverage
+typings

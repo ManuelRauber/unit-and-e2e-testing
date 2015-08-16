@@ -1,0 +1,45 @@
+{
+  "version": "v4",
+  "repo": "borisyankov/DefinitelyTyped",
+  "ref": "master",
+  "path": "typings",
+  "bundle": "typings/tsd.d.ts",
+  "installed": {
+    "gulp-typescript/gulp-typescript.d.ts": {
+      "commit": "f23cd55e319a0f67362ca0dbc4cf3e2ec1339f4e"
+    },
+    "del/del.d.ts": {
+      "commit": "f23cd55e319a0f67362ca0dbc4cf3e2ec1339f4e"
+    },
+    "gulp/gulp.d.ts": {
+      "commit": "f23cd55e319a0f67362ca0dbc4cf3e2ec1339f4e"
+    },
+    "gulp-concat/gulp-concat.d.ts": {
+      "commit": "f23cd55e319a0f67362ca0dbc4cf3e2ec1339f4e"
+    },
+    "jasmine/jasmine.d.ts": {
+      "commit": "f23cd55e319a0f67362ca0dbc4cf3e2ec1339f4e"
+    },
+    "angularjs/angular.d.ts": {
+      "commit": "f23cd55e319a0f67362ca0dbc4cf3e2ec1339f4e"
+    },
+    "jquery/jquery.d.ts": {
+      "commit": "f23cd55e319a0f67362ca0dbc4cf3e2ec1339f4e"
+    },
+    "node/node.d.ts": {
+      "commit": "f23cd55e319a0f67362ca0dbc4cf3e2ec1339f4e"
+    },
+    "glob/glob.d.ts": {
+      "commit": "f23cd55e319a0f67362ca0dbc4cf3e2ec1339f4e"
+    },
+    "minimatch/minimatch.d.ts": {
+      "commit": "f23cd55e319a0f67362ca0dbc4cf3e2ec1339f4e"
+    },
+    "angular-protractor/angular-protractor.d.ts": {
+      "commit": "2d4c4679bc2b509f27435a4f9da5e2de11258571"
+    },
+    "selenium-webdriver/selenium-webdriver.d.ts": {
+      "commit": "2d4c4679bc2b509f27435a4f9da5e2de11258571"
+    }
+  }
+}
